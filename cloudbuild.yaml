@@ -23,7 +23,7 @@ steps:
     - '--filename=gke.yaml'
     - '--image=gcr.io/$PROJECT_ID/gcpdevops'
     - '--cluster=gcp-devps-project'
-    - '--location=us-central1-c'  
+    - '--location=us-central1'  
     - '--namespace=gcp-devops-prod'   
     
 options:
